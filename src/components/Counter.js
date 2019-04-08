@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from 'react-redux';
 import { increment, decrement } from '../actions';
+import './counter.css';
 
 class Counter extends Component {
     incrementIfOdd = () => {
